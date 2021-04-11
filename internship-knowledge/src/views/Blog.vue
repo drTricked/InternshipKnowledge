@@ -1,15 +1,21 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="12" sm="2">
+      <v-col cols="12" sm="1">
         <v-sheet rounded="lg" min-height="268">
           Hello
         </v-sheet>
       </v-col>
 
-      <v-col cols="12" sm="8">
+      <v-col cols="12" sm="9">
         <v-sheet min-height="70vh" rounded="lg">
-          Middle
+          <BlogPostFull
+            v-for="(post, index) in posts"
+            :key="index"
+            :title="post.title"
+            :date="post.date"
+            :text="post.text"
+          />
         </v-sheet>
       </v-col>
 
@@ -23,14 +29,28 @@
 </template>
 
 <script>
-  import BlogPostShort from "../components/BlogPostShort";
+  //   import BlogPostShort from "../components/BlogPostShort";
   import BlogPostFull from "../components/BlogPostFull";
 
   export default {
     components: {
-      BlogPostShort,
+      //  BlogPostShort,
       BlogPostFull,
     },
+    data: () => ({
+      posts: [
+        {
+          title: "First Blog Post!",
+          date: new Date(),
+          text: "This is my first blog post!!!",
+        },
+        {
+          title: "Second Blog Post!",
+          date: new Date(),
+          text: "Second blog post, lets gooooo!!!",
+        },
+      ],
+    }),
   };
 </script>
 
