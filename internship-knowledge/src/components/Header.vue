@@ -1,28 +1,28 @@
 <template>
   <!-- take out app prop if you don't want it to stick -->
-  <v-app-bar app dense color="primary" dark>
+  <v-app-bar app flat dense dark color="grey">
+    <v-app-bar-title> InternshipKnowledge</v-app-bar-title>
+    <v-spacer></v-spacer>
     <div class="d-flex align-center">
       <v-btn text>
-        <router-link class="r-link" to="/">Home</router-link>
+        <router-link class="r-link font-weight-light" to="/">Home</router-link>
       </v-btn>
       <v-btn text>
-        <router-link class="r-link" to="/About">About</router-link>
+        <router-link class="r-link font-weight-light" to="/about"
+          >About</router-link
+        >
       </v-btn>
       <v-btn text>
-        <router-link class="r-link" to="/Blog">Blog</router-link>
+        <router-link class="r-link font-weight-light" to="/blog"
+          >Blog</router-link
+        >
+      </v-btn>
+      <v-btn text>
+        <router-link class="r-link font-weight-light" to="/goals"
+          >Goals</router-link
+        >
       </v-btn>
     </div>
-
-    <v-spacer></v-spacer>
-
-    <v-btn
-      href="https://github.com/vuetifyjs/vuetify/releases/latest"
-      target="_blank"
-      text
-    >
-      <span class="mr-2">Latest Release</span>
-      <v-icon>mdi-open-in-new</v-icon>
-    </v-btn>
   </v-app-bar>
 </template>
 
