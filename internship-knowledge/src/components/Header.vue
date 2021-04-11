@@ -1,4 +1,5 @@
 <template>
+  <!-- take out app prop if you don't want it to stick -->
   <v-app-bar app dense color="primary" dark>
     <div class="d-flex align-center">
       <v-btn text>
