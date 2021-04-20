@@ -8,3 +8,9 @@ After reading some resources about stuff a junior developer should know. I thoug
 So this will be where that all goes. 
 
 The plan for today is to get some basic structuring of the website up.
+
+
+### Update D? - comeback
+
+I have done some backend practice so I have not had a chance to contribute to the website. Will take some time refreshing about some front end practice as well.
+
