@@ -75,7 +75,13 @@
           title: "April 21 Update pt2",
           date: new Date("2021-04-21 20:05:00"),
           text:
-            "Followed a tutorial to create a Exercise Tracker using the MERN stack.",
+            "Followed a tutorial to create a Exercise Tracker using the MERN stack. Goal for short term is to make a small typing game?",
+        },
+        {
+          title: "May 14 Update",
+          date: new Date("2021-05-14 20:52:00"),
+          text:
+            "Hey its been a while. Looking to balance my work life and out of work life. Goal is to update this a bit more. Hope to talk to you soon. Take Care Mark. :)",
         },
       ],
     }),
